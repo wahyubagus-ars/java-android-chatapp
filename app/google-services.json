@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "22622090251",
+    "project_id": "chat-application-a2bb4",
+    "storage_bucket": "chat-application-a2bb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22622090251:android:2a778a093d9265d858830e",
+        "android_client_info": {
+          "package_name": "com.wahyubagus.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22622090251-7sf4soa6o858mbg4hmjdj38bips331ed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDCcTVva8JaPmDwwA5cOfJMYdw40CEOfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22622090251-7sf4soa6o858mbg4hmjdj38bips331ed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
