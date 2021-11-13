@@ -15,12 +15,10 @@ import android.os.Bundle;
 import android.util.Base64;
 import android.widget.Toast;
 
-import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.iid.FirebaseInstanceId;
-import com.google.firebase.messaging.FirebaseMessaging;
 import com.wahyubagus.chatapp.databinding.ActivityMainBinding;
 import com.wahyubagus.chatapp.utilities.PreferenceManager;
 
@@ -44,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void setListeners(){
         binding.imageSignOut.setOnClickListener(v -> signOut());
+        binding.fabNewChat.setOnClickListener(v -> {
+            startActivity(new Intent(getApplicationContext(), UsersActivity.class));
+        });
     }
     private void loadUserDetails(){
         binding.textName.setText(preferenceManager.getString(KEY_NAME));
@@ -67,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                         preferenceManager.getString(KEY_USER_ID)
                 );
         documentReference.update(KEY_FCM, token)
-                .addOnSuccessListener(unused -> showToast("Token Update Successfully"))
+                //.addOnSuccessListener(unused -> showToast("Token Update Successfully"))
                 .addOnFailureListener(e -> showToast("Unable update token"));
     }
 
