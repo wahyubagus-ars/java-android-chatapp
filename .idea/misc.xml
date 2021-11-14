@@ -4,14 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/background_content_bottom.xml" value="0.2203125" />
+        <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/background_content_top.xml" value="0.10104166666666667" />
         <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/background_icon.xml" value="0.2203125" />
         <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/background_image.xml" value="0.2203125" />
         <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/background_input.xml" value="0.2203125" />
+        <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/background_received_message.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/background_sent_message.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/backgrounf_chat_input.xml" value="0.10104166666666667" />
         <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ic_back.xml" value="0.2203125" />
+        <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ic_info.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_chat.xml" value="0.25" />
         <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_sign_up.xml" value="0.18" />
         <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_users.xml" value="0.22" />
+        <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/layout/item_container_received_message.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/layout/item_container_sent_message.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/babay/AndroidStudioProjects/ChatApp/app/src/main/res/layout/item_container_user.xml" value="0.25" />
       </map>
     </option>
